@@ -256,12 +256,51 @@ p {
     position: absolute;
     top: 16px;
     left: 10px;
-    border-radius: 30pxs;
-}
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 5px 10px;
+    }
 
 .deliv1 {
     background: #D0FD89;
-    border-radius: 30px;
+    color: #49494F;
+}
+
+.deliv2 {
+    background: #AEBC41;
+    color: #FFFFFF;
+}
+
+.deliv3 {
+    color: #FFFFFF;
+    background: #B86B78;
+}
+
+.deliv4 {
+    background: #D68334;
+    color: #FFFFFF;
+}
+
+.deliv5 {
+    color: #FFFFFF;
+    background: #CD6255;
+}
+
+.deliv6 {
+    color: #49494F;
+    background: #FFFDBF;
+}
+
+.deliv7 {
+    color: #49494F;
+    background: #F6FDC8;
+}
+
+.deliv8 {
+    color: #49494F;
+    background: #FEF7FE;
 }
 
 .catalog {
