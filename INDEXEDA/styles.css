@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -25,11 +25,11 @@ header {
 }
 
 .logo {
-    display:flex;
+    display: flex;
     width: 130px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 20px; 
+    line-height: 20px;
     text-transform: uppercase;
     gap: 5px;
 }
@@ -59,20 +59,24 @@ header {
     width: 620px;
 }
 
+.search-mobile {
+    display: none;
+}
+
 .enter {
     background: #EBEBEB;
     border-radius: 50px;
-    border-style:none;
+    border-style: none;
     width: 99px;
     font-size: 14px;
     padding: 16px 29px;
 }
 
 .cart-icon {
-     width: 50px;
-     height: 54px;
-     background: url(images/cart.png) no-repeat;
-     position: relative;
+    width: 50px;
+    height: 54px;
+    background: url(images/cart.png) no-repeat;
+    position: relative;
 }
 
 .cart-index {
@@ -265,7 +269,7 @@ p {
     font-size: 20px;
     line-height: 23px;
     padding: 5px 10px;
-    }
+}
 
 .deliv1 {
     background: #D0FD89;
@@ -349,7 +353,7 @@ p {
     flex-basis: 270px;
 }
 
-.food-item img{
+.food-item img {
     border-radius: 20px 20px 0 0;
     max-width: 100%;
 }
@@ -383,6 +387,7 @@ p {
     line-height: 23px;
     color: #4B4B51;
 }
+
 .food-cart {
     font-weight: 500;
     font-size: 16px;
@@ -403,7 +408,7 @@ p {
 
 .food-details {
     display: flex;
-    flex-direction:  column;
+    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -416,6 +421,8 @@ p {
 .benefits {
     max-width: 1196px;
     margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 202px;
 }
 
 .benefits-item svg {
@@ -461,11 +468,51 @@ p {
 }
 
 .benefits-item:hover p {
-    color:#FFF;
+    color: #FFF;
 }
 
 .benefits-cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 37px;
+}
+
+footer {
+    background: #F6F6F6;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-content {
+    max-width: 1196px;
+    margin: 0 auto;
+    display: flex;
     justify-content: space-between;
 }
+
+.footer-info {
+    display: flex;
+    gap: 50px;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 50px;
+    align-self: center;
+}
+
+footer a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.social {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
