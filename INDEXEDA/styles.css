@@ -254,10 +254,12 @@ p {
     border-radius: 18px;
     position: relative;
     margin: 0;
+    flex-basis: calc((100% - 32px*3) / 4);
 }
 
 .gallery img {
     border-radius: 18px;
+    max-width: 100%;
 }
 
 .gallery figcaption {
@@ -350,7 +352,7 @@ p {
     background: #FFFFFF;
     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
-    flex-basis: 270px;
+    flex-basis: calc((100% - 37px*3) / 4);
 }
 
 .food-item img {
@@ -443,7 +445,7 @@ p {
     border-radius: 18px;
     padding: 30px 23px 25px 24px;
     text-align: center;
-    flex-basis: 270px;
+    flex-basis: calc((100% - 37px*3) / 4);
 }
 
 .benefits-item:hover {

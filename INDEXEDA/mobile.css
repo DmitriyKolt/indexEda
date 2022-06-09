@@ -9,6 +9,16 @@ header .logo span {
 
 .search-form {
     display: none;
+    position: absolute;
+    top: 70px;
+    left: 22px;
+    z-index: 50;
+    width: calc(100% - 44px);
+    margin-right: 22px;
+}
+
+.search {
+    background: #eee;
 }
 
 .search-icon {
@@ -17,7 +27,10 @@ display: none;
 
 
 .cart-icon {
-    display: none;
+    position: absolute;
+    top: 115px;
+    right: 18px;
+    z-index: 10;
 }
 
 .search-mobile {
@@ -25,5 +38,42 @@ display: none;
     width: 37px;
     height: 37px;
     background: url(images/search-icon.png) no-repeat center;
+    display: block;
+}
+
+.search-close {
+    background: url(images/close.svg) no-repeat center;
+}
+
+.slider {
+    padding-right: 0;
+    padding-left: 0;
+    max-width: 100%;
+    height: 325px;
+    overflow: hidden;
+}
+
+.slider-item {
+    border-radius: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.slider-item h1 {
+    font-size: 35px;
+    width: 90%;
+    margin:0 auto;
+}
+
+.slider-item h2 {
+    width: 90%;
+    margin-bottom: 32px;
+    margin:0 auto;
+}
+
+.slider-btn {
+    width: 260px;
+    margin: 0 auto;
     display: block;
 }
