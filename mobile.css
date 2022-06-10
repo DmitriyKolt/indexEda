@@ -1,0 +1,161 @@
+header {
+    padding:  9px 21px 39px 22px;
+    max-width: 768px;
+}
+
+header .logo span {
+    display: none;
+}
+
+.search-form {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 22px;
+    z-index: 50;
+    width: calc(100% - 44px);
+    margin-right: 22px;
+}
+
+.search {
+    background: #eee;
+}
+
+.search-icon {
+display: none;
+}
+
+
+.cart-icon {
+    position: absolute;
+    top: 115px;
+    right: 18px;
+    z-index: 10;
+}
+
+.search-mobile {
+    display: none;
+    width: 37px;
+    height: 37px;
+    background: url(images/search-icon.png) no-repeat center;
+    display: block;
+}
+
+.search-close {
+    background: url(images/close.svg) no-repeat center;
+}
+
+.slider {
+    padding-right: 0;
+    padding-left: 0;
+    max-width: 100%;
+    padding-bottom: 50px;
+}
+
+.slider-item {
+    border-radius: 0;
+    padding: 40px 20px;
+}
+
+.slider-item h1 {
+    font-size: 35px;
+    width: 90%;
+    margin:0 auto;
+    height: 130px;
+}
+
+.slider-item h2 {
+    width: 90%;
+    margin-bottom: 32px;
+    margin:0 auto;
+}
+
+.slider-btn {
+    width: 260px;
+    margin: 0 auto;
+    display: block;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    margin-left: 16px;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    margin-right: 16px;
+    margin-left: 17px;
+}
+
+.owl-nav {
+    right: auto;
+    bottom: 55px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.bonus {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 768px;
+}
+
+.bonus-item {
+    margin-bottom: 33px;
+}
+
+.delivery {
+    max-width: 768px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.gallery figure {
+    flex-basis: 270px;
+}
+
+.food-item {
+    flex-basis: 270px;
+}
+
+.food-item img {
+    max-width: 50%;
+    margin-left: 25%;
+}
+
+.categories {
+    max-width: 768px;
+    padding: 0 20px;
+}
+
+.categories ul {
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.benefits {
+    max-width: 768px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.benefits-item {
+    flex-basis: 270px;
+}
+
+.footer-content {
+    max-width: 768px;
+    padding: 0 20px;
+    flex-direction: column;
+}
+
+.footer-info {
+    flex-direction: column;
+}
+
+footer ul {
+    flex-direction: column;
+    gap: 14px;
+    align-items: flex-start;
+    align-self: flex-start;
+}
